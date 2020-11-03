@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.shopping.cart.parent</groupId>
+    <artifactId>shopping-cart-parent</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>inventoryservice</module>
+		<module>loginservice</module>
+		<module>orderservice</module>
+		<module>paymentservice</module>
+		<module>productservice</module>
+		<module>shippingservice</module>
+		<module>shoppingcartconfigserver</module>
+		<module>shoppingcarteurekaserver</module>
+		<module>shoppingcartgateway</module>
+    </modules>
+
+</project>
